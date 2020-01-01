@@ -1,6 +1,6 @@
 ﻿var input = document.querySelector('.input_text');
 var main = document.querySelector('#name');
-var temp = document.querySelector('.temp');
+var temp = document.querySelector('.temp') - 273.15;
 var desc = document.querySelector('.desc');
 var clouds = document.querySelector('.clouds');
 var button= document.querySelector('.submit');
