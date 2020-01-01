@@ -5,7 +5,6 @@ var desc = document.querySelector('.desc');
 var clouds = document.querySelector('.clouds');
 var button= document.querySelector('.submit');
 
-
 button.addEventListener('click', function(name){
 fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=63342eee9e2c773ae6991366a6324888')
 .then(response => response.json())
